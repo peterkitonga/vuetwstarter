@@ -15,7 +15,11 @@
 - [x] Unit tests with mocha, chai & sinon
 - [ ] Continuous integration with TravisCI
 - [ ] Coverage reports with Istanbul & Coveralls
-- [ ] Add SCSS files with [7-1 architecture pattern](https://sass-guidelin.es/#the-7-1-pattern)
+- [x] Add SCSS files with [7-1 architecture pattern](https://sass-guidelin.es/#the-7-1-pattern)
+- [ ] Add basic layout for the app(header,footer,wrapper)
+- [ ] Add components for auth pages(login,register,forgot/reset password)
+- [ ] Add store for state management and cookies
+- [ ] Add basic configuration for PWA
 - [ ] Containerized setup with docker-compose
 
 ## Environment Variables
