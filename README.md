@@ -1,5 +1,6 @@
 <div align="center">
 <h1>Vue 2 Starter</h1>
+<a href="https://app.travis-ci.com/github/peterkitonga/vuetwstarter" target="_blank"><img alt="Build Status" src="https://img.shields.io/travis/com/peterkitonga/vuetwstarter/master?style=for-the-badge"></a> <a href="https://coveralls.io/github/peterkitonga/vuetwstarter" target="_blank"><img alt="Coverage Status" src="https://img.shields.io/coveralls/github/peterkitonga/vuetwstarter/master?style=for-the-badge"></a>
 <p>This starter was created as a starting template for a Vue.js 2 frontend application built with TypeScript.</p>
 </div>
 
