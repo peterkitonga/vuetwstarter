@@ -10,9 +10,17 @@
 - [BEM Methodology](http://getbem.com/) - Methodology for naming and organizing CSS selectors and HTML elements.
 - [Vuex](https://vuex.vuejs.org/) - Vue.js library for state management.
 
+## Roadmap
+
+- [x] Unit tests with mocha, chai & sinon
+- [ ] Continuous integration with TravisCI
+- [ ] Coverage reports with Istanbul & Coveralls
+- [ ] Add SCSS files with [7-1 architecture pattern](https://sass-guidelin.es/#the-7-1-pattern)
+- [ ] Containerized setup with docker-compose
+
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To begin using the starter project, first copy the example variables into a `.env.[mode].local` file with command: `cp .env.example .env.[mode].local`. The modes available are [documented here](https://cli.vuejs.org/guide/mode-and-env.html#modes). You will then need to modify the following environment variables in the `.env.[mode].local` file for your frontend to run:
 
 - `VUE_APP_NAME` - Name of the application
 
@@ -62,15 +70,21 @@ To deploy this project run
 
 ## Running Tests
 
-Tests are written in Mocha, Chai under the `test` directory and uses `istanbul` for coverage reports. To run tests, run the following command
+Tests are written in Mocha, Chai under the `tests` directory and uses `istanbul` for coverage reports. To run tests, run the following command
 
 ```bash
   npm run test:unit
 ```
 
+To run and view coverage reports for the tests, you will need to run two scripts in sequential order
+
+```bash
+  npm run test:coverage ; npm run test:view
+```
+
 ## Linting
 
-Linting is configured with eslint and prettier. You are free to configure it to your liking using the configuration files `.eslintrc.js` and `.prettierrc.js`
+Linting is configured with eslint and prettier. You are free to configure it to your liking using the configuration file `.eslintrc.js`.
 
 To check for and fix linting errors, run
 
@@ -80,7 +94,7 @@ To check for and fix linting errors, run
 
 ## Further Customization
 
-See [Configuration Reference](https://cli.vuejs.org/config/) for further customization
+See [configuration reference here](https://cli.vuejs.org/config/) for further customization
 
 ## Authors
 
