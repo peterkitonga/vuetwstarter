@@ -1,6 +1,21 @@
-$default-font-size: 1.6rem;
+$font-default-size: 1.6rem;
+$font-primary: "Montserrat", sans-serif;
+$font-display: "Rubik", sans-serif;
+
+$color-default: #f2f4f4;
+$color-text-default: #5e6877;
+$color-text-dark: #2c3e50;
+$color-text-primary: #5a8dee;
+$color-text-info: #00cfdd;
+$color-text-success: #39da8a;
+$color-text-danger: #ff5b5c;
+
+$shadow-default: -0.8rem 1.2rem 1.8rem 0 rgba($color-text-default, 0.12);
+$shadow-dark: -0.8rem 1.2rem 1.8rem 0 rgba($color-text-dark, 0.12);
+$shadow-primary: -0.8rem 1.2rem 1.8rem 0 rgba($color-text-primary, 0.12);
+$shadow-info: -0.8rem 1.2rem 1.8rem 0 rgba($color-text-info, 0.12);
+$shadow-success: -0.8rem 1.2rem 1.8rem 0 rgba($color-text-success, 0.12);
+$shadow-danger: -0.8rem 1.2rem 1.8rem 0 rgba($color-text-danger, 0.12);
 
 $gutter-col: 8rem;
 $gutter-row: 8rem;
-
-$color-text-primary: #2c3e50;
